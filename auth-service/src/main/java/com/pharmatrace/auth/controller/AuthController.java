@@ -71,4 +71,12 @@ public class AuthController {
 
         return "Auth Service Running";
     }
+    // Protected Route
+@GetMapping("/profile")
+public ResponseEntity<String> profile() {
+
+    return ResponseEntity.ok(
+            "Protected profile accessed successfully"
+    );
+}
 }
