@@ -1,0 +1,46 @@
+# Compiler
+.classpath
+.class
+*.class
+*.jar
+*.war
+*.ear
+*.ser
+.gradle
+build/
+target/
+
+# IDE
+.idea/
+.settings/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.project
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# Logs
+*.log
+logs/
+
+# Runtime
+.env
+.env.local
